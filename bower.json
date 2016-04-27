@@ -1,0 +1,22 @@
+{
+    "name": "widget-promoted",
+    "dependencies": {
+        "jquery": null,
+        "bootstrap": "~3.3.6",
+        "bootstrap-select": "~1.10.0"
+    },
+    "devDependencies": {},
+    "exportsOverride": {
+        "jquery": {
+            "js": "dist/jquery.min.js"
+        },
+        "bootstrap": {
+            "js": "dist/js/bootstrap.min.js",
+            "css": ["dist/css/*.min.css"]
+        },
+        "bootstrap-select": {
+            "js": "dist/js/bootstrap-select.min.js",
+            "css": "dist/css/bootstrap-select.min.css"
+        }
+    }
+}

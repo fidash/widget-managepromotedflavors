@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="widget-managepromoted" version="0.1.0">
+  <details>
+    <title>Manage Promoted Flavors</title>
+    <homepage>https://github.com/fidash/widget-managepromotedflavors</homepage>
+    <authors>Miguel Garcia</authors>
+    <email>mgarcia@conwet.com</email>
+    <image></image>
+    <smartphoneimage></smartphoneimage>
+    <description>Manage the promoted flavors.</description>
+    <longdescription>DESCRIPTION.md</longdescription>
+    <changelog>doc/changelog.md</changelog>
+    <doc>doc/index.md</doc>
+    <license>MIT</license>
+    <issuetracker>https://github.com/fidash/widget-managepromotedflavors/issues</issuetracker>
+  </details>
+
+  <requirements>
+
+  </requirements>
+
+  <preferences>
+  </preferences>
+  <wiring>
+    <inputendpoint name="authentication" type="text" label="Authentication" description="Receive the authentication data via wiring" friendcode="openstack-auth"/>
+  </wiring>
+  <contents src="index.html"/>
+  <rendering height="47" width="10"/>
+</widget>

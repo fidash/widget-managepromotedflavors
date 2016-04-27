@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta content="charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Empty widget-promoted widget</title>
+  </head>
+  <body>
+
+    <div class="ontop">
+      <div class="mynavbar navbar navbar-default">
+        <div class="row">
+          <div class="selects">
+            <select class="form-control selectpicker" data-live-search="true" id="region_selector" name="region" title="Loading Regions" disabled>
+              <optgroup>
+                <option>Promoted</option>
+              </optgroup>
+              <optgroup id="regions_group" label="Regions">
+              </optgroup>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="spinner" class="spinner" style="display: none;">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+    </div>
+
+    <div id="container">
+      <ul id="flavorsContainer" class="list-group">
+      </ul>
+    </div>
+
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/bootstrap-select.min.js"></script>
+    <script src="js/WidgetPromoted.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
