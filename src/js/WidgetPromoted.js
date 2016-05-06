@@ -262,6 +262,9 @@ var WidgetPromoted = (function () {
                 Accept: "application/json"
             },
             onSuccess: () => {
+                // Remove flavor from this.promotedflavors
+                this.promotedflavors = this.promotedflavors.filter(pf => !equalFlavors(pf, flavor));
+
                 next();
             },
             onFailure: () => { }

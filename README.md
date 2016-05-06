@@ -1,6 +1,8 @@
 Widget Promoted widget
 ======================
 
+[![GitHub license](https://img.shields.io/badge/license-AGPLv3-blue.svg)](https://raw.githubusercontent.com/fidash/widget-promoted/master/LICENSE.txt)
+
 The Widget Promoted widget is a WireCloud widget that provides ...
 
 Build
