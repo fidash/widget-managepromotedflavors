@@ -1,7 +1,8 @@
 Widget Promoted widget
 ======================
 
-[![GitHub license](https://img.shields.io/badge/license-AGPLv3-blue.svg)](https://raw.githubusercontent.com/fidash/widget-promoted/master/LICENSE.txt)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/fidash/widget-promoted/master/LICENSE)
+[![Support badge](https://img.shields.io/badge/support-askbot-yellowgreen.svg)](http://ask.fiware.org)
 
 The Widget Promoted widget is a WireCloud widget that provides ...
 
